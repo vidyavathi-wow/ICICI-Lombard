@@ -125,7 +125,7 @@ const ResultsPage: React.FC<ResultsPageProps> = ({ responses, sessionPlates, tra
             </div>
 
             <div className="text-[10px] text-slate-400 leading-tight">
-                Wow Vision. This screening tool is for educational purposes only. Diagnostic accuracy depends on display quality and environment.
+                WowVision. This screening tool is for educational purposes only. Diagnostic accuracy depends on display quality and environment.
             </div>
         </div>
     );

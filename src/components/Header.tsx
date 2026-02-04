@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ screen, onLogoClick, currentPlateIndex,
                     <Eye className="text-white w-6 h-6" />
                 </div>
                 <span className="font-bold text-xl tracking-tight text-primary">
-                    Wow <span className="text-secondary">Vision</span>
+                    Wow<span className="text-secondary">Vision</span>
                 </span>
             </button>
             {screen === 'test' && (
