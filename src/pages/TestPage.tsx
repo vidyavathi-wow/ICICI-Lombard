@@ -68,9 +68,9 @@ const TestPage: React.FC<TestPageProps> = ({
 
                 <button
                     onClick={onBack}
-                    className="w-full text-slate-400 hover:text-secondary text-xs font-medium transition-colors py-2"
+                    className="mx-auto w-max px-6 py-2 text-slate-400 hover:text-red-500 text-xs font-bold transition-all rounded-lg border border-slate-200 hover:border-red-100 hover:bg-red-50 flex items-center justify-center gap-2 mt-2"
                 >
-                    Cancel & Go Back
+                    Exit Test
                 </button>
             </div>
         </div>
