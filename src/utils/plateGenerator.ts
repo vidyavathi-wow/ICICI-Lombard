@@ -16,17 +16,17 @@ export interface PlateConfig {
 
 export const PALETTES = {
   NORMAL: {
-    background: ['#738637', '#93A64D', '#B1BF5F', '#C8D96F', '#8C9C42'],
-    digit: ['#E67E22', '#D35400', '#E74C3C', '#C0392B', '#E67E22']
+    background: ['#738637', '#8C9C42', '#93A64D', '#A1B155', '#B1BF5F'], // Various Greens
+    digit: ['#D35400', '#E67E22', '#F39C12', '#C0392B', '#A04000'] // High contrast Oranges/Browns
   },
   REVERSED: {
-    background: ['#E67E22', '#D35400', '#E74C3C', '#C0392B', '#E67E22'],
-    digit: ['#738637', '#93A64D', '#B1BF5F', '#C8D96F', '#8C9C42']
+    background: ['#D35400', '#E67E22', '#F39C12', '#C0392B', '#A04000'],
+    digit: ['#738637', '#8C9C42', '#93A64D', '#A1B155', '#B1BF5F']
   },
   // Protan / Deutan confusion colors (simplistic POC versions)
   CVD_CONFUSION_1: {
-    background: ['#A8A878', '#C0C090', '#D8D8A8', '#909060'],
-    digit: ['#D8A8A8', '#F0C0C0', '#C09090', '#A87878']
+    background: ['#A8A878', '#B0B080', '#C0C090', '#909060'], 
+    digit: ['#800080', '#9932CC', '#8B008B', '#4B0082'] // Darker, richer Purples for better visibility on muted background
   },
   CVD_CONFUSION_2: {
     background: ['#7BBD7B', '#8CC68C', '#9DCE9D', '#ADE6AD'], // Greens

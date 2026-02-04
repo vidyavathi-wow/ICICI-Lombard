@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#003366', // ICICI Lombard Blue
+          DEFAULT: '#003366', // Wow Vision Blue
           light: '#004a8f',
           dark: '#001d3d',
         },
         secondary: {
-          DEFAULT: '#e31e24', // ICICI Lombard Red
+          DEFAULT: '#e31e24', // Wow Vision Red
           light: '#f74046',
           dark: '#b3151a',
         },
